@@ -1,0 +1,205 @@
+/* NAVBAR */
+
+#main-navbar .nav-link {
+    border-bottom: 5px solid #212529;
+    color: #e2e1e1;
+}
+
+#main-navbar .nav-link:hover,
+#main-navbar a.active {
+    border-bottom: 5px solid #5c72af;
+    color: white;
+}
+
+.nav-link {
+    line-height: 65px;
+}
+
+.main-logo {
+    height: 100px;
+    margin-bottom: -15px;
+}
+
+.small-logo {
+    height: 90px;
+}
+
+/* MAIN SLIDER - Halaman Beranda */
+
+#main-navbar {
+    z-index: 100;
+}
+
+#main-slide .carousel-item {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90vh;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.bg-info {
+    background-color: #5c72af !important;
+}
+
+#main-slide h1 {
+    margin-top: 60vh;
+}
+
+#slide1 {
+    background-image: url('../img/img1.png');
+}
+
+#slide2 {
+    background-image: url('../img/img2.jpg');
+}
+
+#slide3 {
+    background-image: url('../img/img3.jpg');
+}
+
+#slide4 {
+    background-image: url('../img/img4.jpg');
+}
+
+/* SHOW OFF - Halaman Beranda */
+
+.btn-outline-info {
+    color: #5c72af;
+    border-color: #5c72af;
+}
+
+.btn-outline-info:hover {
+    background-color: #5c72af;
+    border-color: #5c72af;
+    color: white;
+}
+
+/* EXPLORE - Halaman Beranda */
+
+#explore {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url('../img/full-img3.jpg');
+}
+
+#explore .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+
+/* MEMBERSHIP - Halaman Beranda */
+
+.btn-info {
+    background-color: white;
+    color: #5c72af;
+    border-color: #5c72af;
+}
+
+.btn-info:hover {
+    color: white;
+    background-color: #5c72af;
+    border-color: #5c72af;
+}
+
+/* MEMBER SHOWCASE - Halaman Beranda */
+
+#member-showcase img {
+    width: 100px;
+    border: 3px solid #5c72af;
+    background-color: white;
+    filter: brightness(80%);
+}
+
+#member-showcase img:hover {
+    filter: brightness(100%);
+}
+
+/* MEMBER LIST - Halaman Beranda */
+
+#member-list .card-body img {
+    width: 125px;
+    margin-top: -80px;
+}
+
+/* HEADER IMAGE - Untuk selain halaman Beranda */
+
+.header-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+}
+
+.header-overlay {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 300px;
+}
+
+.header-image h1 {
+    margin-top: 120px;
+}
+
+/* HEADER IMAGE - Gambar untuk setiap halaman */
+
+#blog-header {
+    background-image: url('../img/banner.jpg');
+    background-position-y: -100px;
+}
+
+#article-header {
+    background-image: url('../img/full-img1.jpg');
+    background-position-y: -50px;
+}
+
+#gallery-header {
+    background-image: url('../img/full-img2.jpg');
+    background-position-y: -150px;
+}
+
+#login-header {
+    background-image: url('../img/img2.jpg');
+    background-position-x: -300px;
+}
+
+/* BREADCRUMB */
+
+.text-info {
+    color: #5c72af !important;
+}
+
+a.text-info:hover, a.text-info:focus {
+    color: #5c72af !important;
+}
+
+/* BLOG LIST - Mengatur efek underscore di link */
+
+#blog a {
+    text-decoration: none;
+}
+
+#blog a:hover {
+    text-decoration: underline;
+}
+
+/* ARTICLE LIST - Mengatur efek underscore di link */
+
+#article a {
+    text-decoration: none;
+}
+
+#article a:hover {
+    text-decoration: underline;
+}
+
+
+/* - Disabling XXL Breakpoint (optional) - */
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
